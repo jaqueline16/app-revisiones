@@ -1,0 +1,23 @@
+
+
+.input-label {
+    position: absolute ;
+    top: 10px ;
+    left: 0 ;
+    transform: translate(10px,10px) ;
+    transition: transform .25s ;
+  
+  }
+  
+
+
+  .form-control:focus+.input-label, 
+  .form-control:valid+.input-label{
+    transform: translate(20px, -24px) scale(.8);
+    padding-inline: 5px ;
+    color: #000 ;
+    padding-inline: 5px ;
+    background-color: #fff ;
+  
+  }
+
